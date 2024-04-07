@@ -6,11 +6,11 @@ This is a simple guessing game built with React where players need to guess the 
 
 ## How to Play
 
-1- Upon loading the game, a random RGBA color will be displayed on the screen.
-2- Buttons representing different RGBA colors will be presented below the displayed color.
-3- Click on the button that you think matches the displayed color.
-4- If your selection matches the displayed color, you'll see a "Correct" message. Otherwise, you'll see a "False" message.
-5- The game will automatically generate a new set of colors for the next round.
+1. Upon loading the game, a random RGBA color will be displayed on the screen.
+2. Buttons representing different RGBA colors will be presented below the displayed color.
+3. Click on the button that you think matches the displayed color.
+4. If your selection matches the displayed color, you'll see a "Correct" message. Otherwise, you'll see a "False" message.
+5. The game will automatically generate a new set of colors for the next round.
 6- You can continue playing and trying to guess the correct color.
 
 
@@ -22,11 +22,11 @@ This is a simple guessing game built with React where players need to guess the 
 
 ## Installation
 
-1- Clone the repository:
+1. Clone the repository:
 `git clone https://github.com/your-username/guess-rgba-color-game.git`
-2- Navigate to the project directory:
+2. Navigate to the project directory:
 `cd guess-rgba-color-game`
-3- Install dependencies:
+3. Install dependencies:
 `npm install`
 
 
