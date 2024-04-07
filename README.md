@@ -51,5 +51,3 @@ This game was created by [Mustafa Abu Wardeh].
 
 This project is licensed under the MIT License.
 
-
-Feel free to customize the README further based on your preferences and additional information you'd like to provide about the game.
