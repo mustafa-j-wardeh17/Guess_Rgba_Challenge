@@ -1,30 +1,49 @@
-# React + TypeScript + Vite
+# Guess RGBA Color Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple guessing game built with React where players need to guess the RGBA color displayed on the screen. The objective is to click the button corresponding to the correct RGBA color among a set of randomly generated colors.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## How to Play
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1- Upon loading the game, a random RGBA color will be displayed on the screen.
+2- Buttons representing different RGBA colors will be presented below the displayed color.
+3- Click on the button that you think matches the displayed color.
+4- If your selection matches the displayed color, you'll see a "Correct" message. Otherwise, you'll see a "False" message.
+5- The game will automatically generate a new set of colors for the next round.
+6- You can continue playing and trying to guess the correct color.
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Technologies Used
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- React
+- useState hook for managing state
+
+
+## Installation
+
+1- Clone the repository:
+`git clone https://github.com/your-username/guess-rgba-color-game.git`
+2- Navigate to the project directory:
+`cd guess-rgba-color-game`
+3- Install dependencies:
+`npm install`
+
+
+## Gameplay Notes
+
+- The game uses RGBA colors for added complexity and challenge.
+- Players are encouraged to keep playing and improve their color recognition skills.
+
+
+## Credits
+
+This game was created by [Mustafa Abu Wardeh].
+
+
+## License
+
+This project is licensed under the MIT License.
+
+
+Feel free to customize the README further based on your preferences and additional information you'd like to provide about the game.
