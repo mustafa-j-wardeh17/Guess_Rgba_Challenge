@@ -23,11 +23,17 @@ This is a simple guessing game built with React where players need to guess the 
 ## Installation
 
 1. Clone the repository:<br>
-```git clone https://github.com/mustafawardeh/guess-rgba-color-game.git```
-2. Navigate to the project directory:<br>
-```cd guess-rgba-color-game```
-3. Install dependencies:<br>
-```npm install```
+```
+git clone https://github.com/mustafawardeh/guess-rgba-color-game.git
+```
+3. Navigate to the project directory:<br>
+```
+cd guess-rgba-color-game
+```
+5. Install dependencies:<br>
+```
+npm install
+```
 
 
 ## Gameplay Notes
